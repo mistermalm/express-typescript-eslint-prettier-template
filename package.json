@@ -13,6 +13,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
+  "imports": {
+    "#*": "./src/*"
+  },
   "keywords": [],
   "author": "Jonatan Malm",
   "license": "MIT",
