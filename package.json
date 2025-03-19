@@ -4,12 +4,20 @@
   "description": "An Express.js template with TypeScript, ESLint and Prettier",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx --watch src/index.ts",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "Jonatan Malm",
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   }
 }
