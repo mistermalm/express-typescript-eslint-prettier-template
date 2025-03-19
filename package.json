@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "author": "Jonatan Malm",
-  "license": "MIT",
+  "license": "GNU GPL v3",
   "dependencies": {
     "express": "^4.21.2"
   },
