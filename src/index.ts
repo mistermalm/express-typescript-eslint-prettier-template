@@ -1,11 +1,9 @@
 import express from 'express'
-const app = express()
-const port = '5000'
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-  console.log('Response sent')
-})
+const app = express()
+
+const port = String(process.env.PORT)
+if (!port) throw new Error('PORT undefined')
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
